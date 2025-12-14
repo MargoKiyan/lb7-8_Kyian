@@ -1,0 +1,126 @@
+<!-- Виконала ст. гр. ПД-21 Киян Маргарита -->
+ 
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тортики & Тістечка</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="radio" name="type" id="all" checked hidden />
+    <input type="radio" name="type" id="cake" hidden />
+    <input type="radio" name="type" id="pastry" hidden />
+    <input type="radio" name="type" id="roll" hidden />
+    <input type="radio" name="type" id="cheese" hidden />
+    <input type="radio" name="type" id="pie" hidden />
+
+    <header class="header">
+      <h1>Тортики <span>&</span> Тістечка</h1>
+    </header>
+
+    <nav class="filters">
+      <label for="pie">Пиріг</label>
+      <label for="pastry">Тістечко</label>
+      <label for="roll">Рулет</label>
+      <label for="cake">Торт</label>
+      <label for="cheese">Сирники</label>
+      <label for="all">Скинути фільтр</label>
+    </nav>
+
+    <main class="content">
+      <section class="cards">
+        <div class="card cake">
+          <img src="./img/try_jagody.jpg" />
+          <div class="info">
+            <p>Торт: <strong>Сметанковий</strong></p>
+          </div>
+          <div class="cal">Калорії у порції 265 кКал</div>
+        </div>
+
+        <div class="card pastry">
+          <img src="./img/maffin.jpg" />
+          <div class="info">
+            <p>Тістечко: <strong>Маффін</strong></p>
+          </div>
+          <div class="cal">Калорії у порції 305 кКал</div>
+        </div>
+
+        <div class="card cheese">
+          <img src="./img/syrnyk.jpg" />
+          <div class="info">
+            <p>Сирники: <strong>Три ягоди</strong></p>
+          </div>
+          <div class="cal">Калорії у порції 450 кКал</div>
+        </div>
+
+        <div class="card cake">
+          <img src="./img/smachnyi.webp" />
+          <div class="info">
+            <p>Торт: <strong>Смачний</strong></p>
+          </div>
+          <div class="cal">Калорії у порції 523 кКал</div>
+        </div>
+
+        <div class="card roll">
+          <img src="./img/svyatkovyi_rulet.jpg" />
+          <div class="info">
+            <p>Рулет: <strong>Святковий</strong></p>
+          </div>
+          <div class="cal">Калорії у порції 380 кКал</div>
+        </div>
+
+        <div class="card pie">
+          <img src="./img/svyato_u_babusi.jpg" />
+          <div class="info">
+            <p>Пиріг: <strong>Свято у бабусі</strong></p>
+          </div>
+          <div class="cal">Калорії у порції 298 кКал</div>
+        </div>
+
+        <div class="card cake">
+          <img src="./img/vedmedyk.jpg" />
+          <div class="info">
+            <p>Торт: <strong>Ведмедик</strong></p>
+          </div>
+          <div class="cal">Калорії у порції 600 кКал</div>
+        </div>
+
+        <div class="card pastry">
+          <img src="./img/kvitky.jpg" />
+          <div class="info">
+            <p>Тістечко: <strong>Живі квіти</strong></p>
+          </div>
+          <div class="cal">Калорії у порції 438 кКал</div>
+        </div>
+
+        <div class="card pastry">
+          <img src="./img/lymonne.jpg" />
+          <div class="info">
+            <p>Тістечко: <strong>Лимонне з маком</strong></p>
+          </div>
+          <div class="cal">Калорії у порції 348 кКал</div>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <h3>Калорій у порції</h3>
+        <div class="slider"><span></span><span></span></div>
+        <p>Від 0 до 400 кКал</p>
+
+        <label for="pie">Пиріг</label>
+        <label for="roll">Рулет</label>
+        <label for="cheese">Сирники</label>
+        <label for="pastry">Тістечко</label>
+        <label for="cake">Торт</label>
+        <label for="all">Скинути фільтр</label>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <div>Контакти: <a href="#">tortik@smakota.ua</a></div>
+      <div>© 2019 Smakota</div>
+    </footer>
+  </body>
+</html>
